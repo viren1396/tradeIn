@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assest/Image/Logo.png";
 import LocDropDown from "../LocDropDown";
-import SearchBox from "../Header/SearchBox";
+import SearchBox from "./SearchBox";
 import { Button } from "@mui/material";
 import { LiaShoppingCartSolid } from "react-icons/lia";
 import { FaRegUser } from "react-icons/fa6";
-import Categories from "../Header/Categories";
+import Categories from "./Categories";
 import { MyContext } from "../../App";
 import { useContext } from "react";
 
